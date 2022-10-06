@@ -20,8 +20,8 @@ body {
   }
 .boy {
      
-    background-color: #f1f1f1;
-    border-radius: 5px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -171,6 +171,21 @@ body {
     font-weight:lighter;
    
     
+    
+  }
+  .MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementTop {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .labelcontainer {
+    height: 8vh;   
+    width: 1176px; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-wrap:nowrap;  
+    background-color: white;
     
   }
   
