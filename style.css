@@ -3,22 +3,84 @@
 body {
     margin: 0;
     background-color: #babcbf;
+    left:auto;
+    right:auto;
    
     font-family: 'Inter', sans-serif;
 }
 .flex-container {
     height: 100vh;
-    
+    width: 95%;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    flex-flow: row nowrap; 
     justify-content:space-between;
     justify-items: center;
-    flex-direction: column;
-    flex-wrap:nowrap;   
+    border-radius: 5px 5px 5px 5px;
     
     
     background-color: #babcbf;
   }
+  .flex-container > div{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.logoleedcontainer {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+    padding: 15px;
+    font-size: 13px;
+    
+    display: flex;
+    width: 77.5%;
+    justify-content:baseline;
+    
+    flex-flow: row nowrap; 
+    justify-content:left;
+    justify-items:left; 
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .logoleedcontainer > div{
+        
+    align-items:flex-start;
+  }
+  .boy2 {
+     
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 13px;
+    
+    
+    
+    
+}    
+
 .boy {
+     
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 13px;
+    
+    height:max-content; 
+    
+    
+}  
+.boy1 {
      
     background-color: white;
     border-radius: 0px 0px 5px 5px;
@@ -27,10 +89,13 @@ body {
     margin-bottom: 20px;
     padding: 15px;
     font-size: 13px;
-    width:max-content;
+    
     height:max-content; 
     
+    
 }  
+
+
 
 .MySubmitButton {
     margin-left: auto;
@@ -82,7 +147,7 @@ body {
 .MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
     padding-left: 4px;
 }
-
+[id='score-Integrative Process'],
 [id='score-LEED for Neighborhood Development Location'],
 [id='score-Sensible Land Protection'],
 [id='score-High Priority Site and Equitable Development'],
